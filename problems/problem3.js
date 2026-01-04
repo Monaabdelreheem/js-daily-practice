@@ -1,4 +1,13 @@
+/*
+🧩 Problem 3 – findMax (Array + Logic)
 
+Write a function called findMax.
+
+Requirements:
+- It takes one parameter, an array of numbers
+- It returns the largest number in the array
+- If the input is not a valid array or is empty, return null
+*/
 
 function findMax(numbers) {
   if (!Array.isArray(numbers) || numbers.length === 0) {
