@@ -22,6 +22,11 @@ function findMax(numbers) {
     }
   }
 
+  // NEW RULE
+  if (max < 0) {
+    return 0;
+  }
+
   return max;
 }
 
@@ -29,3 +34,4 @@ function findMax(numbers) {
 console.log(findMax([1, 5, 3, 9, 2])); // 9
 console.log(findMax([-10, -3, -20])); // -3
 console.log(findMax([])); // null
+console.log(findMax([-1, -2, -3]));   // 0
