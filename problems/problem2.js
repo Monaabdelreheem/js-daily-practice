@@ -26,3 +26,8 @@ function countPositives(arr) {
 }
 
 module.exports = countPositives;
+// Examples
+// console.log(countPositives([1, -2, 3, 4, -5])); // 3
+// console.log(countPositives([-1, -2, -3])); // 0
+// console.log(countPositives([0, 2, 4, 6])); // 3
+// console.log(countPositives("not an array")); // 0
