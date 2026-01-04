@@ -34,6 +34,8 @@ The goal is consistency, clarity, and building strong problem solving habits one
 - Commit small, meaningful changes
 - Focus on understanding, not speed ⏳
 - Revisit old solutions and improve them over time ✨
+- Practice even on busy days to stay consistent 💪
+
 
 ## 📚 Topics covered
 - Strings
