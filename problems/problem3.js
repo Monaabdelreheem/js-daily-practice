@@ -7,6 +7,7 @@ Requirements:
 - It takes one parameter, an array of numbers
 - It returns the largest number in the array
 - If the input is not a valid array or is empty, return null
+- NEW RULE: If the largest number is negative, return 0 instead
 */
 
 function findMax(numbers) {
