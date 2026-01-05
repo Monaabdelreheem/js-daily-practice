@@ -7,8 +7,8 @@ It returns how many numbers in the array are positive (greater than 0) */
 // Reviewed solution and confirmed logic works correctly
 
 function countPositives(arr) {
-  // Fail safely if input is not an array
-  if (!Array.isArray(arr)) {
+  // Fail safely if input is not an array 
+  if (!Array.isArray(arr) || arr.length === 0) {
     return 0;
   }
 
