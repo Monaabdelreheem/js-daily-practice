@@ -11,19 +11,22 @@ Requirements:
 */
 
 function findMax(numbers) {
+    // Fail safely if input is not an array or is empty
   if (!Array.isArray(numbers) || numbers.length === 0) {
     return null;
   }
 
   let max = numbers[0];
-
+// Iterate through the array to find the maximum number
   for (let i = 1; i < numbers.length; i++) {
+    // Check if the current number is greater than max
     if (numbers[i] > max) {
+        // Update max if current number is greater
       max = numbers[i];
     }
   }
 
-  // NEW RULE
+  // NEW RULE check: If max is negative, return 0 instead
   if (max < 0) {
     return 0;
   }
