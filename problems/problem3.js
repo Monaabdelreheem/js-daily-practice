@@ -21,8 +21,9 @@ function findMax(numbers) {
   for (let i = 1; i < numbers.length; i++) {
     // Check if the current number is greater than max
     if (numbers[i] > max) {
-        // Update max if current number is greater
+        // Update max if current number is greater than max
       max = numbers[i];
+      maxIndex = i;
     }
   }
 
