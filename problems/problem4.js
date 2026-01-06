@@ -10,7 +10,7 @@ Requirements:
 */
 function countVowels(str) {
     // Fail safely if input is not a string
-    if (typeof str !== 'string') {
+    if (typeof str !== 'string' || str.trim().length === 0) {
         return 0;
     }
     // define vowels and initialize count
