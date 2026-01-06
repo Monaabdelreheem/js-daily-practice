@@ -16,8 +16,11 @@ function countVowels(str) {
     // define vowels and initialize count
     const vowels = ["a", "e", "i", "o", "u"];
     let count = 0;
+    str = str.toLowerCase(); // Convert the string to lowercase for case-insensitive comparison
+
 // Iterate through each character in the string and check if it's a vowel
     for (let char of str) {
+        // Check if the character is a vowel
         if (vowels.includes(char)) {
             count++;
         }
