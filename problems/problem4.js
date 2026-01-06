@@ -29,4 +29,14 @@ function countVowels(str) {
     return count;
 }
 
+// Examples
+console.log(countVowels("Hello World")); // 3
+console.log(countVowels("JavaScript")); // 3
+console.log(countVowels("AEIOU")); // 5
+console.log(countVowels("xyz")); // 0
+console.log(countVowels(12345)); // 0
+console.log(countVowels("")); // 0  
+console.log(countVowels("   ")); // 0
+
+
 module.exports = countVowels;
