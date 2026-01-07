@@ -36,3 +36,6 @@ console.log(countPositivesSumNegatives([1, 2, -1, -2]));
 
 //example input with no positives
 console.log(countPositivesSumNegatives([-1, -2, -3]));
+
+//example input with no negatives
+console.log(countPositivesSumNegatives([1, 2, 3]));
