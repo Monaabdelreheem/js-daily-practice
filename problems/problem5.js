@@ -42,3 +42,6 @@ console.log(countPositivesSumNegatives([1, 2, 3]));
 
 //example input with zeros (should not affect the counts)
 console.log(countPositivesSumNegatives([0, 1, -1, 0]));
+
+//example input with an empty array (should return 0 for both counts)
+console.log(countPositivesSumNegatives([]));
