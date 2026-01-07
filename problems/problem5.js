@@ -33,3 +33,6 @@ const countPositivesSumNegatives = (array) => {
 };
 // print the result of the function with the example input
 console.log(countPositivesSumNegatives([1, 2, -1, -2]));
+
+//example input with no positives
+console.log(countPositivesSumNegatives([-1, -2, -3]));
