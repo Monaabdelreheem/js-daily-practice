@@ -11,6 +11,7 @@ It should return the string converted to camelCase */
 function toCamelCase(str) {
   // type safety check / fail safely
   if (typeof str !== 'string') {
+    // If the input is not a string, return an empty string
     return '';
   }
 
@@ -34,5 +35,13 @@ function toCamelCase(str) {
     })
     .join(''); // Join all words together without spaces
 }
-
+// Examples
+// console.log(toCamelCase("hello-world")); // "helloWorld"
+// console.log(toCamelCase("this_is_a_test")); // "thisIsATest"
+// console.log(toCamelCase("multiple--separators__test")); // "multipleSeparatorsTest"
+// console.log(toCamelCase("alreadyCamelCase")); // "alreadyCamelCase"
+// console.log(toCamelCase("")); // ""
+// console.log(toCamelCase(123)); // ""
 module.exports = toCamelCase;
+
+

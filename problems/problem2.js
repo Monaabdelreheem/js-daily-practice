@@ -17,6 +17,7 @@ function countPositives(arr) {
   for (let num of arr) {
     // Check if the element is a number and greater than 0
     if (typeof num === "number" && num > 0) {
+        // Increment count if the number is positive
       count++;
       /* Use a ternary to add 1 if the number is positive, otherwise add 0
  count += num > 0 ? 1 : 0;*/
