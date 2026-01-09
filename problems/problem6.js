@@ -11,7 +11,7 @@ Words are separated by spaces
 Extra spaces at the beginning, end, or between words should not count   */
 
 function countWords(str) {
-    // Fail safely if input is not a string
+    // Fail safely if input is not a string or is an empty string after trimming
     if (typeof str !== 'string' || str.trim().length === 0) {
         return 0;
     }
