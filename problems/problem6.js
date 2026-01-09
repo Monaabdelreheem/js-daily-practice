@@ -11,6 +11,10 @@ Words are separated by spaces
 Extra spaces at the beginning, end, or between words should not count   */
 
 function countWords(str) {
+    // Fail safely if input is not a string
+    if (typeof str !== 'string' || str.trim().length === 0) {
+        return 0;
+    }
 
     const words = str.trim().split(" "); 
     let count = 0;
