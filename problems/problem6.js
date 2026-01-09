@@ -30,3 +30,10 @@ function countWords(str) {
   // return the final count of words
     return count;
 }
+
+// Test cases
+console.log(countWords("Hello world"));        // 2
+console.log(countWords("  This   is  JS "));   // 3
+console.log(countWords(""));                   // 0
+console.log(countWords("One"));                // 1
+console.log(countWords(123));                  // 0
