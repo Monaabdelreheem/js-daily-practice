@@ -12,6 +12,10 @@ Do not use built-in methods like reduce */
 
 
 function sum(numbers) {
+
+    if (!Array.isArray(numbers) || numbers.length === 0) {
+        return 0;
+    }   
   let total = 0;
 
   for (let i = 0; i < numbers.length; i++) {
