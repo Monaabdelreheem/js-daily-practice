@@ -34,6 +34,7 @@ function toCamelCase(str) {
       // Capitalize first letter of subsequent words
       return word[0].toUpperCase() + word.slice(1);
     })
+    // Join all the words together to form the camelCase string
     .join(''); // Join all words together without spaces
 }
 // Examples
