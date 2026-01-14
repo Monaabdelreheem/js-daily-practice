@@ -24,6 +24,7 @@ function toCamelCase(str) {
     .split(/[-_]/) // Split the string by hyphens or underscores
     // handle multiple separators in a row by filtering out empty strings
     .filter(word => word !== "")
+    // Map over the words and convert to camelCase
     .map((word, index) => {
       // First word stays as is
       if (index === 0) {

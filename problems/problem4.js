@@ -15,6 +15,7 @@ function countVowels(str) {
     }
     // define vowels and initialize count
     const vowels = ["a", "e", "i", "o", "u"];
+    // Initialize count to 0 to keep track of the number of vowels
     let count = 0;
     str = str.toLowerCase(); // Convert the string to lowercase for case-insensitive comparison
 

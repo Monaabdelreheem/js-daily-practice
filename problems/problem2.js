@@ -13,7 +13,7 @@ function countPositives(arr) {
   }
 
   let count = 0;
-
+// Iterate through the array and count how many numbers are positive
   for (let num of arr) {
     // Check if the element is a number and greater than 0
     if (typeof num === "number" && num > 0) {
