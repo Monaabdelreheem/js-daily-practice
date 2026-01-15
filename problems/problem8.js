@@ -24,14 +24,18 @@ getActiveUserNames(users, 21);
 
 
 function getActiveUserNames(usersArray, minAge) {
+    // define an empty array to store the names of active users who meet the age requirement
   let names = [];
 
+// Iterate through the users array and check if each user is active and meets the age requirement
   for (let user of usersArray) {
+    // Check if the user is active and has an age greater than or equal to minAge
     if (user.isActive === true && user.age >= minAge) {
+        // If the user meets the criteria, add their name to the names array
       names.push(user.name);
     }
   }
-
+// Return the array of names of active users who meet the age requirement
   return names;
 }
 
