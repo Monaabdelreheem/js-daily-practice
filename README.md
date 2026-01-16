@@ -35,6 +35,11 @@ The goal is consistency, clarity, and building strong problem solving habits one
 
 **problem8.js**
 
+**problem9.js**
+
+**problem10.js**
+
+**problem11.js**
 
 
 
