@@ -11,7 +11,7 @@ function countPositives(arr) {
   if (!Array.isArray(arr) || arr.length === 0) {
     return 0;
   }
-
+// Initialize count to 0 to keep track of the number of positive numbers in the array
   let count = 0;
 // Iterate through the array and count how many numbers are positive
   for (let num of arr) {
