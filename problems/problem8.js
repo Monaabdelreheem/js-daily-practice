@@ -41,10 +41,10 @@ function getActiveUserNames(usersArray, minAge) {
 
 
 // When you're ready to test your code, uncomment these lines:
-// const users = [
-//   { id: 1, name: "Alice", age: 25, isActive: true },
-//   { id: 2, name: "Bob", age: 17, isActive: true },
-//   { id: 3, name: "Charlie", age: 30, isActive: false },
-//   { id: 4, name: "Diana", age: 22, isActive: true }
-// ];
-// console.log("Result:", getActiveUserNames(users, 21));
+const users = [
+  { id: 1, name: "Alice", age: 25, isActive: true },
+  { id: 2, name: "Bob", age: 17, isActive: true },
+  { id: 3, name: "Charlie", age: 30, isActive: false },
+  { id: 4, name: "Diana", age: 22, isActive: true }
+];
+console.log("Result:", getActiveUserNames(users, 21));
