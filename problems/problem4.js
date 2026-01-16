@@ -23,6 +23,7 @@ function countVowels(str) {
     for (let char of str) {
         // Check if the character is a vowel
         if (vowels.includes(char)) {
+            // Increment count if the character is a vowel
             count++;
         }
     }
