@@ -32,7 +32,7 @@ function findMax(numbers) {
   if (max < 0) {
     return 0;
   }
-
+// Return the maximum number found in the array
   return max;
 }
 
