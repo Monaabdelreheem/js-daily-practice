@@ -1,3 +1,17 @@
+/* Write a function called isPalindrome.
+
+Requirements
+
+It takes one parameter, a string
+
+It returns true if the string is a palindrome
+
+It returns false otherwise
+
+Ignore spaces and case
+
+If the input is not a string, return false*/
+
 function isPalindrome(str) {
   const cleanedStr = str.toLowerCase().split(" ").join("");
   const reversedStr = cleanedStr.split("").reverse().join("");
