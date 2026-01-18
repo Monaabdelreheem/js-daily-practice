@@ -24,3 +24,10 @@ if (typeof str !== "string" || str.trim().length === 0) {
   // Return true if the cleaned string is the same as its reversed version, indicating it's a palindrome
   return cleanedStr === reversedStr;
 }
+
+// Example tests
+console.log(isPalindrome("racecar"));   
+console.log(isPalindrome("Race Car"));  
+console.log(isPalindrome("hello"));     
+console.log(isPalindrome(""));          
+console.log(isPalindrome(12321));       
