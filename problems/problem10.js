@@ -17,3 +17,9 @@ return [];
     // Sort the array in ascending order and return a new array
     return nums.slice().sort((a, b) => a - b);
 }
+
+
+// Task 3: Example test cases
+console.log(solution([1, 2, 10, 50, 5])); 
+console.log(solution(null));              
+console.log(solution([]));       
