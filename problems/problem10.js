@@ -1,6 +1,12 @@
 /* Problem 10: Sort an Array of Numbers
-Write a function that takes an array of numbers and returns a new array with the numbers sorted in ascending order.
+
+Task:
+- Accept an array of numbers as input
+- Return a new array sorted in ascending order
+- Do not mutate the original array
+- If the input is null or not an array, return an empty array
 */
+
 
 function solution(nums) {
     // Check if the input is a valid array 
