@@ -6,3 +6,7 @@ Task:
 - Return the updated string
 - If the string is empty, return an empty string
 */
+
+function solution(string) {
+  return string.replace(/([A-Z])/g, " $1");
+}
