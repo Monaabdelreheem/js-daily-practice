@@ -1,3 +1,10 @@
+/* Problem 11: Roman Numerals Decoder
+
+Task:
+- Create a function that takes a Roman numeral string and returns its decimal value
+- No need to validate the Roman numeral format
+*/
+
 function romanToInt(roman) {
   const values = {
     I: 1,
