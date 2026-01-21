@@ -10,3 +10,8 @@ Task:
 function solution(string) {
   return string.replace(/([A-Z])/g, " $1");
 }
+
+// Example tests
+console.log(solution("camelCasing")); 
+console.log(solution("identifier"));  
+console.log(solution(""));            
