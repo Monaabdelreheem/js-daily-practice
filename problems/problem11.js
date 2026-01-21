@@ -35,7 +35,19 @@ function romanToInt(roman) {
       total += current;
     }
   }
-  
+
 // Return the final decimal value
   return total;
 }
+
+
+// Example tests
+console.log(romanToInt("MM"));      
+console.log(romanToInt("MDCLXVI")); 
+console.log(romanToInt("M"));       
+console.log(romanToInt("CD"));      
+console.log(romanToInt("XC"));      
+console.log(romanToInt("XL"));      
+console.log(romanToInt("I"));       
+console.log(romanToInt("MCMXC"));   
+console.log(romanToInt("MMVIII")); 
