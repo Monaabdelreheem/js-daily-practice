@@ -19,7 +19,7 @@ The goal is consistency, clarity, and building strong problem solving habits one
 
 **problems/**
 
-| # | File | Title |
+| # | ***File*** | ***Title*** |
 |---:|---|---|
 | 1 | problem1.js | **toCamelCase** |
 | 2 | problem2.js | **countPositives** |
