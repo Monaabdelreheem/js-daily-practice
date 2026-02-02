@@ -19,27 +19,19 @@ The goal is consistency, clarity, and building strong problem solving habits one
 
 **problems/**
 
-**problem1.js**
-
-**problem2.js**
-
-**problem3.js**
-
-**problem4.js**
-
-**problem5.js**
-
-**problem6.js**
-
-**problem7.js**
-
-**problem8.js**
-
-**problem9.js**
-
-**problem10.js**
-
-**problem11.js**
+- problem1.js — toCamelCase
+- problem2.js — countPositives
+- problem3.js — findMax
+- problem4.js — Count Vowels
+- problem5.js — Count Positives & Sum Negatives
+- problem6.js — countWords
+- problem7.js — sum
+- problem8.js — getActiveUserNames
+- problem9.js — isPalindrome
+- problem10.js — Sort an Array of Numbers
+- problem11.js — Roman Numerals Decoder
+- problem12.js — Break Camel Casing
+- problem13 — Weird String Case
 
 
 
