@@ -34,6 +34,7 @@ The goal is consistency, clarity, and building strong problem solving habits one
 | 11 | problem11.js | **Roman Numerals Decoder** |
 | 12 | problem12.js | **Break Camel Casing** |
 | 13 | problem13 | **Weird String Case** |
+| 14 | problem14.js | **Maximum Distance Between Houses With Different Colors** |
 
 
 
