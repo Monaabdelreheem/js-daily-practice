@@ -8,19 +8,22 @@ Task:
 */
 
 function maxDistance(colors) {
+    // Initialize the answer to 0 and get the number of houses
   let answer = 0;
   const n = colors.length;
-
+// We can check the distance from the first and last house to all other houses
   for (let i = 0; i < n; i++) {
+    // If the color of the current house is different from the last house, update the answer
     if (colors[i] !== colors[n - 1]) {
+        // The distance from the current house to the last house is n - 1 - i
       answer = Math.max(answer, n - 1 - i);
     }
-
+// If the color of the current house is different from the first house, update the answer
     if (colors[i] !== colors[0]) {
       answer = Math.max(answer, i);
     }
   }
-
+// Return the maximum distance found
   return answer;
 }
 
