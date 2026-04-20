@@ -11,7 +11,16 @@ Task:
 
 
 function solution(string) {
-  return string.replace(/([A-Z])/g, " $1");
+//   return string.replace(/([A-Z])/g, " $1");
+
+ return string
+    .split("")
+    .map(char =>
+      char === char.toUpperCase() && char !== char.toLowerCase()
+        ? " " + char
+        : char
+    )
+    .join("");
 }
 
 // Example tests
